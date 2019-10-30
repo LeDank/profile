@@ -1,0 +1,174 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #5138be;
+  font-family: 'Oswald', sans-serif;
+  color: #ededed;
+  line-height: 24px;
+}
+
+h1 {
+  color: #ededed;
+  font-size: 50px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+h3 {
+    color: #ededed;
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.grey-card{
+  /*background: white;*/
+  background: linear-gradient(-45deg, #595959 12.5%, #3b3b3b 12.5%, #3b3b3b 37.5%, #595959 37.5%, #595959 62.5%, #3b3b3b 62.5%, #3b3b3b 87.5%, #595959 87.5%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 600px;
+  margin: 20px auto;
+}
+
+.grey-card-margin{
+  background: linear-gradient(-45deg, #595959 12.5%, #3b3b3b 12.5%, #3b3b3b 37.5%, #595959 37.5%, #595959 62.5%, #3b3b3b 62.5%, #3b3b3b 87.5%, #595959 87.5%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 600px;
+  margin: 20px auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+a {
+  font-family: 'Zilla Slab Highlight', cursive;
+  text-decoration: none;
+  color: #77B6EA;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+
+
+img {
+  border-radius: 50%;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+p {
+  margin-bottom: 0px;
+  margin-top: 24px;
+}
+
+ul {
+  list-style:none;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding-right: 30px;
+}
+
+li > a {
+  color: #C7D3DD;
+  font-size: 50px;
+}
+
+
+li > a:hover {
+  color: white;
+  align-content;
+}
+
+.social-icon{
+  font-size: 60px;
+}
+
+
+/*PARTIE TEST DU TITRE ATTENTION LE CODE EST LONG*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background: #111;
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: center;
+  font-size: 100;
+  margin-top: 30;
+  color: #fff;
+  letter-spacing: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  animation: blur 3s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+
+
+
+
+
+
+
+
